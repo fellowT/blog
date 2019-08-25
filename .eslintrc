@@ -1,0 +1,12 @@
+{
+  "extends": ["plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "@typescript-eslint/rule-name": "off",
+    "indent": "off",
+    "@typescript-eslint/indent": ["error", 2],
+    "@typescript-eslint/no-require-imports":"off",
+    "@typescript-eslint/no-var-requires":"off"
+  }
+}
