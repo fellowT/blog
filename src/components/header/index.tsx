@@ -1,8 +1,7 @@
 import React from 'react';
-import './styles/index.scss';
-import './App.scss';
+import './index.scss';
 
-const App: React.FC = () => {
+const Header: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -11,4 +10,4 @@ const App: React.FC = () => {
   );
 }
 
-export default App;
+export default Header;
