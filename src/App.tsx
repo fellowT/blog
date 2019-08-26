@@ -1,12 +1,14 @@
 import React from 'react';
 import './styles/index.scss';
 import './App.scss';
-
-const App: React.FC = () => {
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Header from './components/header/index'
+const App: React.FC = (): any => {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <Router>
+        <Header/>
+      </Router>
     </div>
   );
 }

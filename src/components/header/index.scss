@@ -1,0 +1,18 @@
+.header{
+  height: 90px;
+  width: 100%;
+  background: red;
+  overflow: hidden;
+}
+.logo{
+  float: left;
+  width: 100px;
+  height: 100%;
+  font-family: 'Pacifico', cursive;
+  font-size: 26px;
+  margin-left: 200px;
+  line-height: 90px;
+}
+.nav{
+  float: right;
+}
