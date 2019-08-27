@@ -1,5 +1,5 @@
 import Home from '../pages/home'
-import Article from '../pages/home'
+import Article from '../pages/article'
 import {PagesType} from '../types/index'
 const routes: PagesType[] = [
   {

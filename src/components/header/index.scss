@@ -1,7 +1,6 @@
 .header{
   height: 90px;
   width: 100%;
-  background: red;
   overflow: hidden;
 }
 .logo{
@@ -15,4 +14,21 @@
 }
 .nav{
   float: right;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-right: 300px;
+  &-item{
+    display: inline-block;
+    margin-left: 20px;
+    a{
+      font-weight: 700;
+      color: var(--PC_theme_color);
+      font-size: 18px;
+      &:hover{
+        color:var(--PC_theme_font_color);
+      }
+    }
+  }
 }

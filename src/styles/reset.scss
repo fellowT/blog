@@ -1,6 +1,13 @@
-html,body,div,p,span,ul,li,img{
+html,body,div,p,span,ul,li,img,h1,h2,h3,h4,h5,h6{
   margin: 0;
   padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6{
+  color: #010101;
+}
+a{
+  text-decoration: none;
+  color: #6f6f6f;
 }
 a:hover{
   text-decoration: none;

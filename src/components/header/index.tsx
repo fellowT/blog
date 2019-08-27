@@ -8,19 +8,17 @@ class Header extends Component {
   public render() {
     const routerNav = routes.map((route,index) => {
       if(route.exact){
-        return <li key={index}><NavLink exact to={route.path}>{route.name}</NavLink></li>
+        return <li className="nav-item" key={index}><NavLink exact to={route.path}>{route.name}</NavLink></li>
       }else{
-        return <li key={index}><NavLink  to={route.path}>{route.name}</NavLink></li>
+        return <li className="nav-item" key={index}><NavLink  to={route.path}>{route.name}</NavLink></li>
       }
     })
     return (
       <div className="header">
         <div className="logo">.Coder</div>
-        <div className="nav">
-          <ul>
-            {routerNav}
-          </ul>
-        </div>
+        <ul className="nav">
+          {routerNav}
+        </ul>
       </div>
     );
   }

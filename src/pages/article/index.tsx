@@ -4,7 +4,7 @@ class Article extends Component {
   public render() {
     return (
       <div>
-        
+        22222
       </div>
     );
   }
