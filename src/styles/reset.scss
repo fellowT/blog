@@ -2,7 +2,7 @@ html,body,div,p,span,ul,li,img,h1,h2,h3,h4,h5,h6{
   margin: 0;
   padding: 0;
 }
-body,h1,h2,h3,h4,h5,h6{
+body,h1,h2,h3,h4,h5,h6,div,span,ul,li{
   color: #010101;
 }
 a{
@@ -14,4 +14,12 @@ a:hover{
 }
 li{
   list-style-type: none;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("../assets/fonts/6xKtdSZaM9iE8KbpRA_hK1QNYuDyPw.woff2");
+}
+@font-face {
+  font-family: "Pacifico";
+  src: url("../assets/fonts/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2");
 }

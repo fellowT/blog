@@ -13,8 +13,13 @@ class Home extends Component {
           <div className="personal-footer">
           </div>
         </div>
-        <div className="home-wrap">
-
+        <div className="home-container">
+          <div className="home-wrap">
+            <div className="home-wrap-bar"></div>
+            <div className="home-wrap-content">
+              <div className="wrap-title">about me</div>
+            </div>
+          </div>
         </div>
       </div>
     );
