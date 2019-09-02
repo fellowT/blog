@@ -23,11 +23,49 @@
         margin-bottom: 11px;
         text-align: center;
       }
+      .address{
+        color: #757575;
+        text-align: center;
+        font-size: 18px;
+      }
+      .blog-icon{
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        a{
+          display: inline-block;
+          width: 40px;
+          height: 40px;
+          margin: 5px;
+          img{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
     }
     &-footer{
       width: 100%;
       height: 118px;
       background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .download-btn{
+        width: 218px;
+        height: 38px;
+        background: #000000;
+        color: #fff;
+        border-radius: 35px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        cursor: pointer;
+        box-shadow: 0 0 3px 1px black;
+      }
     }
   }
   .home-container{
@@ -40,7 +78,7 @@
       &-content{
         height: 100%;
         margin-right: 56px;
-        padding: 25px;
+        padding: 40px 25px;
         box-sizing: border-box;
         background: white;
         .wrap-title{
@@ -49,6 +87,13 @@
           font-size: 30px;
           margin-bottom: 50px;
           font-family: "Quicksand", sans-serif;
+        }
+        .introduction{
+          line-height: 1.875em;
+          b{
+            margin-bottom: 10px;
+            display: inline-block;
+          }
         }
       }
       &-bar{

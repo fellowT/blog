@@ -17,7 +17,7 @@ const App: React.FC = (): any => {
       <Router>
         <Header/>
         {routerView}
-      </Router>
+      </Router> 
     </div>
   );
 }

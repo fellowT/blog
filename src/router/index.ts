@@ -6,7 +6,7 @@ const routes: PagesType[] = [
     path:'/',
     component:Home,
     exact:true,
-    name:'home'
+    name:'首页'
   },
   {
     path:'/article',
